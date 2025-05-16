@@ -4,29 +4,6 @@
 **Deployed on Vercel:**  
 🔗 [https://aglet-task.vercel.app](https://aglet-task.vercel.app)
 
----
-
-## 📁 Project Structure
-
-The project is organized for clarity and scalability, with separate folders for components, pages, and media assets.
-
-src/
-├── components/
-│ ├── Navbar.jsx # Navigation bar component
-│ └── VideoSlider.jsx # Optional: Video slider component (if used)
-│
-├── data/
-│ ├── images/ # Stores all image files used in the app
-│ └── videos/ # Stores video files (e.g., contact page background)
-│
-├── pages/
-│ ├── Home.jsx # Homepage layout
-│ └── Contact.jsx # Contact page with video background and information
-│
-├── App.jsx # Main application component
-└── index.js # Entry point of the React application
-
-
 
 ---
 
