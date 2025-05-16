@@ -1,12 +1,69 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 🌐 Live Website
 
-Currently, two official plugins are available:
+**Deployed on Vercel:**  
+🔗 [https://aglet-task.vercel.app](https://aglet-task.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The project is organized for clarity and scalability, with separate folders for components, pages, and media assets.
+
+src/
+├── components/
+│ ├── Navbar.jsx # Navigation bar component
+│ └── VideoSlider.jsx # Optional: Video slider component (if used)
+│
+├── data/
+│ ├── images/ # Stores all image files used in the app
+│ └── videos/ # Stores video files (e.g., contact page background)
+│
+├── pages/
+│ ├── Home.jsx # Homepage layout
+│ └── Contact.jsx # Contact page with video background and information
+│
+├── App.jsx # Main application component
+└── index.js # Entry point of the React application
+
+
+
+---
+
+## 📂 Root Directory
+
+- `favicon.ico` – Website icon displayed in browser tabs.
+- `vercel.json` – Vercel configuration file to handle routing fallback.  
+  This prevents page reload issues (e.g., 404 errors) when refreshing on nested routes like `/contact`.
+
+---
+
+## 🚀 Deployment
+
+The application is deployed using **Vercel**, a modern frontend hosting platform.
+
+- Automatically builds and deploys on push.
+- Handles custom routing and refresh issues via the `vercel.json` configuration file.
+
+---
+
+## 🛠 Technologies Used
+
+- **React** – Component-based UI library.
+- **Tailwind CSS** – Utility-first CSS framework for styling.
+- **Vercel** – Hosting and continuous deployment.
+
+---
+
+## 📌 Notes
+
+- All videos and images used are stored in the `src/data` folder.
+- The design is responsive across all screen sizes.
+- Smooth scroll functionality is implemented for enhanced UX when navigating from the video to the second section.
+
+---
+
+**Developed by:**  
+**Munashe Mugonda**  
+📧 munashemugondaa@gmail.com  
+📞 +27 68 952 6513
