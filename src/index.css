@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@import "tailwindcss-animated";
+
+@font-face {
+    font-family: 'antoni-web';
+    src: url('/fonts/antoni-web.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* Create a utility class like Tailwind */
+  .font-antoni {
+    font-family: 'antoni-web', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  
