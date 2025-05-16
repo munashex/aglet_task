@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home'; 
 import Contact from './pages/Contact';
 
+
 const App = () => {
   return (
     <Router>
@@ -18,6 +19,8 @@ const App = () => {
             <Route path="/contact" element={<Contact/>}/>
           </Routes>
         </main>
+
+       
       </div>
     </Router>
   );
