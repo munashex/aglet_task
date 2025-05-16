@@ -29,7 +29,7 @@ const Navbar = () => {
         {/* Mobile Menu Links */}
         <div className="lg:hidden">
           {openMenu && (
-            <div className="absolute right-8 top-20 text-2xl font-bold space-y-3">
+            <div className="absolute right-8 top-20 text-3xl font-bold space-y-3">
               <Link to="/" onClick={toggleMenu} className="block animate-fade-down">home</Link>
               <Link to="/contact" onClick={toggleMenu} className="block animate-fade-down animate-delay-300">contact</Link>
             </div>
